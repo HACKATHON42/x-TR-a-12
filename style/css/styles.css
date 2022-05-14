@@ -12339,7 +12339,7 @@ fieldset:disabled .btn {
 
 }
 
-.c-nft-info img{
+.c-nft-info img {
     width: 100px;
     border-radius: 50%;
 }
@@ -12353,7 +12353,7 @@ fieldset:disabled .btn {
     margin-bottom: 18px;
 }
 
-.satici-sat{
+.satici-sat {
     width: 100px;
     height: 50px;
     background-color: #212529;
@@ -12365,7 +12365,7 @@ fieldset:disabled .btn {
     margin-top: 30px;
 }
 
-.satici-sat :hover{
+.satici-sat :hover {
     color: #fff;
 }
 
@@ -12381,33 +12381,44 @@ fieldset:disabled .btn {
     justify-content: space-around;
 }
 
-.seri-numara{
+.seri-numara {
     height: 330px;
     width: 60%;
 }
 
-.seri-numara button{
+.seri-numara button {
     margin-left: 0;
     color: #fff;
     text-decoration: none;
 }
 
-.seri-numara button a{
+.seri-numara button a {
     color: #fff
-};
+}
+
+;
 
 
-.seri-numara button :hover{
+.seri-numara button :hover {
     color: white;
 }
 
-#full{
+#full {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
-#full img{
-    margin-right: 45px;
+#full img {
+margin-bottom: 20px;
+}
 
+#form-inline button a {
+    color: #fff;
+}
+
+.c-odeme input{
+    margin-top: 10px;
 }
