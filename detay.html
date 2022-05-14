@@ -15,12 +15,6 @@
 
 <body>
 
-    <?php
-    include 'config.php';
-    ?>
-
-
-
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -68,51 +62,34 @@
                             <li><strong>Numara</strong> <span>46</span></li>
                             <li><strong>Numara</strong> <span>47</span></li>
                             <li><strong>Numara</strong> <span>48</span></li>
-                            <li><strong>Numara</strong> <span>49</span></li>
-                            <li><strong>Numara</strong> <span>50</span></li>
-                            <li><strong>Numara</strong> <span>51</span></li>
-                            <li><strong>Numara</strong> <span>52</span></li>
                         </ul>
                     </div>
                 </div>
-
             </div>
+
+
             <!-- Side widgets-->
             <div class="py-5 col-lg-6">
 
+                <div class='c-nft'>
+                    <div class="c-nft-img">
+                        <img src="./nft_img/nft_1.png" alt="">
+                    </div>
+                    <div class="c-nft-info">
+                        <div class="c-nft-info-img"><img src="./db_img/satici.png" alt=""></div>
+                        <div class="magaza-adi">
+                            <p>Ecole 42</p>
+                        </div>
+                        <div class="scor">
+                            a a a a a a a 
+                        </div>
 
-
-
-                <?php
-                $sorgu = "SELECT * FROM nft, satici";
-                $sorguSonucu = mysqli_query($baglanti, $sorgu) or trigger_error("Hata: " . mysqli_error($mysqli), E_USER_ERROR);
-                if ($sorguSonucu) {
-                    echo "<div class='card business mb-4'>";
-                    while ($kayit = mysqli_fetch_assoc($sorguSonucu)) {
-
-                        echo "<div class='c-nft'>" .
-                            "<span><img src='" . $kayit['nft_img'] . "' alt=''></span>" .
-                            "</div>" .
-                            "<div class='c-nft-info'>".
-
-                            "<div class='satici-img'><img src='" . $kayit['satici_img'] . "' alt=''></div>".
-                            "<div class='satici-adi'>Mağaza Adı: " . $kayit['satici_name'] .  " </div>".
-                            "<div class='satici-puan'>Mağaza Puanı:  ". $kayit['satici_puan'] ." </div>".
-                            "<a class='satici-sat' href='urun-sorgu'>Ürün Sat</a>".
-                            "</div>".
-                            "</div>";
-                    }
-                }
-
-                ?>
-
-                <!-- "<div class='c-nft-info'>".
-                    "<span>"."Detay:". $kayit['nft_info'] ." <br></span>". "<br> tarih:" . $kayit['nft_date'].
-                    "</div>". -->
-
-
-                <!-- shoping CART -->
-                <div class="card mb-4">
+                        <div class="yorum">
+                            Ürün Yorumları - 19.984
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
                     <div class="card-title c-title">Chuck 70</div>
                     <div class="c-price">
                         250.00 TL
@@ -134,7 +111,7 @@
                 <div class="col mb-5">
                     <div class="card h-100">
                         <!-- Product image-->
-                        <a href="detay.php"><img class="card-img-top" src="./style/img/001.jpg" alt="..." /></a>
+                        <a href="detay.php"><img class="card-img-top" src="./style/img/101.jpg" alt="..." /></a>
                         <!-- Product details-->
                         <div class="card-body p-4">
                             <div class="text-center">
@@ -153,7 +130,7 @@
                 <div class="col mb-5">
                     <div class="card h-100">
                         <!-- Product image-->
-                        <a href="detay.php"><img class="card-img-top" src="./style/img/001.jpg" alt="..." /></a>
+                        <a href="detay.php"><img class="card-img-top" src="./style/img/102.jpg" alt="..." /></a>
                         <!-- Product details-->
                         <div class="card-body p-4">
                             <div class="text-center">
@@ -172,7 +149,7 @@
                 <div class="col mb-5">
                     <div class="card h-100">
                         <!-- Product image-->
-                        <a href="detay.php"><img class="card-img-top" src="./style/img/001.jpg" alt="..." /></a>
+                        <a href="detay.php"><img class="card-img-top" src="./style/img/103.jpg" alt="..." /></a>
                         <!-- Product details-->
                         <div class="card-body p-4">
                             <div class="text-center">
@@ -191,7 +168,7 @@
                 <div class="col mb-5">
                     <div class="card h-100">
                         <!-- Product image-->
-                        <a href="detay.php"><img class="card-img-top" src="./style/img/001.jpg" alt="..." /></a>
+                        <a href="detay.php"><img class="card-img-top" src="./style/img/104.jpg" alt="..." /></a>
                         <!-- Product details-->
                         <div class="card-body p-4">
                             <div class="text-center">
