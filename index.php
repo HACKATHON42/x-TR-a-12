@@ -50,7 +50,7 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_1.png" alt="..." /></a>
+                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_2.jpg" alt="..." /></a>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -69,7 +69,7 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_2.png" alt="..." /></a>
+                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_3.jpg" alt="..." /></a>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -88,7 +88,7 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_3.png" alt="..." /></a>
+                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_4.jpg" alt="..." /></a>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -107,7 +107,7 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_4.png" alt="..." /></a>
+                            <a href="detay.php"><img class="card-img-top" src="./nft_img/nft_5.png" alt="..." /></a>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
