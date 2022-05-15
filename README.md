@@ -6,3 +6,7 @@ E-ticarette satılan sahte ürünleri NFT teknolojisini kullanarak orjinalliğin
 ## İŞLEYİŞİ
 
 İlk olarak üretici ürettiği fiziki ürünü müşteriye ulaştırırken biz de fiziki ürünlerin bire bir kopyası olan NFT'leri üretip müşteriye ulaştırırız. Ardından müşteri tekrar satış yapmak istediğinde NFT'yi tekrar bizim üzerimizden müşterisine ulaştırır. Bu NFT sayesinde ürünün orjinalliği sürekli korunmuş olacak. NFT satışarındaki veri takibi ile servisi sağladığımız üretici satılan ürüne benzer ürünleri müşterinin önüne çıkartma olanağı sağlar. Bu sayede reklamlara harcanan paralarda ciddi düşüler yaşanabilir ve üreticinin satışları artar.
+
+## KURULUM
+
+Kaynak kodların indirilmesiyle html uzantılı dosya lokalde çalıştırılır.
