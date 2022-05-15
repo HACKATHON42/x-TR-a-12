@@ -12354,6 +12354,13 @@ fieldset:disabled .btn {
     border-radius: 10px;
 }
 
+.scor span{
+    padding: 3px 5px;
+    background-color: green;
+    color: #fff;
+    border-radius: 8px;
+}
+
 .satici-img {
     width: 100px;
     height: 100px;
@@ -12438,4 +12445,19 @@ fieldset:disabled .btn {
 
 .c-odeme input {
     margin-top: 10px;
+}
+
+.pop-btn{
+    padding: 10px 10px 10px 39px;
+    background-color: #212529;
+    margin: 20px 0 20px 10px;
+    width: 166px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.cart-btn{
+    display: flex;
 }
